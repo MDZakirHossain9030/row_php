@@ -162,15 +162,16 @@ echo "<pre>";
 
 
 // todo: callback function way 2;
+// সকল সংখ্যার সাথে ৫ গুন, অথবা ৫ এর নামাতা
 /*
 echo "<pre>";
-function myFunciton($num){
-    return $num *2;
+function callbackfunction($num){
+  return $num * 5;
 }
 
-$numbers = [1,2,3,4,5];
-$show = array_map("myFunciton", $numbers);
-print_r($numbers);
+$number = array(1,2,3,4,5,6,7,8,9,10);
+$show = array_map("callbackfunction", $number);
+print_r($number);
 print_r($show);
 
 */
