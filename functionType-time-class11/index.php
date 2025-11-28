@@ -143,6 +143,7 @@
 
 
 //callback function way 1
+// প্রতিটা নামে কয়টা করে length আছে তা দেখার জন্য
 /*
 echo "<pre>";
   function callbackfunction($name) {
